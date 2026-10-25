@@ -5,17 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#101010">
-  <meta name="description" content="Human Housing Settlement Pty Ltd provides private housing information and assistance enquiries.">
+  <meta name="description" content="Human Housing Settlement Pty Ltd provides private housing information and enquiry assistance.">
   <title>Human Housing Settlement Pty Ltd | Building Better Lives</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Human Housing Settlement home">
-      <img src="1000096349.png" alt="Human Housing Settlement Pty Ltd logo">
+    <a class="brand" href="#home" aria-label="Home">
+      <img src="images/1000096349.png" alt="Human Housing Settlement logo">
     </a>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <a href="#home">Home</a>
       <a href="#about">About Us</a>
       <a href="#gallery">Gallery</a>
@@ -34,27 +35,29 @@
           Contact our private company for housing information and guidance
           on understanding the relevant housing application process.
         </p>
+
         <div class="hero-actions">
           <a class="button button-gold" href="#enquiry">Submit an Enquiry</a>
           <a class="button button-outline" href="#about">Learn About Us</a>
         </div>
+
         <p class="hero-note">
-          Private housing assistance service — not a government department.
+          Private housing information service — not a government department.
         </p>
       </div>
     </section>
 
     <section class="notice-wrap">
       <div class="notice">
-        <strong>Important housing notice</strong>
+        <strong>Important Housing Notice</strong>
         <p>
           This website is operated by a private company and is not an official
           RDP/BNG housing application portal. Government-subsidised housing
           applications are handled by the relevant provincial Department of
           Human Settlements or municipality and are free. Our enquiry form does
           not secure a house, guarantee approval, or provide priority on a
-          government waiting list. Please do not pay anyone who promises to
-          move your name up a government waiting list.
+          government waiting list. Do not pay anyone who promises to move your
+          name up a government waiting list.
         </p>
       </div>
     </section>
@@ -86,8 +89,9 @@
             government department or municipality.
           </p>
         </div>
+
         <div class="about-image">
-          <img src="1000096042.jpg" alt="Housing and residential properties">
+          <img src="images/1000096042.jpg" alt="Housing and residential properties">
         </div>
       </div>
     </section>
@@ -98,8 +102,7 @@
         <h2>Housing Enquiry Assistance</h2>
         <span class="heading-line"></span>
         <p class="section-intro">
-          Tell us what information you need and we will contact you about your
-          enquiry.
+          Tell us what information you need and we will contact you about your enquiry.
         </p>
       </div>
 
@@ -109,17 +112,20 @@
           <h3>Housing Information</h3>
           <p>Ask questions about housing options and where to find official information.</p>
         </article>
+
         <article class="service-card">
           <span class="service-number">02</span>
           <h3>Process Guidance</h3>
           <p>Request general guidance on identifying the correct official housing office.</p>
         </article>
+
         <article class="service-card">
           <span class="service-number">03</span>
           <h3>Enquiry Follow-up</h3>
           <p>Submit your contact details so our company can respond to your enquiry.</p>
         </article>
       </div>
+
       <p class="service-disclaimer">
         These are private information and enquiry services. They do not replace
         official government services or guarantee a housing outcome.
@@ -137,15 +143,32 @@
       </div>
 
       <div class="gallery-grid">
-        <figure><img src="1000096043.jpg" alt="Residential housing image" loading="lazy"></figure>
-        <figure><img src="1000096087.webp" alt="Housing image" loading="lazy"></figure>
-        <figure><img src="1000096089-1.jpg" alt="Residential property image" loading="lazy"></figure>
-        <figure><img src="1000096038.jpg" alt="Housing and buildings" loading="lazy"></figure>
-        <figure><img src="1000096037.jpg" alt="Residential area" loading="lazy"></figure>
-        <figure><img src="1000095768.jpg" alt="Housing development image" loading="lazy"></figure>
-        <figure><img src="1000096041.jpg" alt="Residential housing" loading="lazy"></figure>
-        <figure><img src="1000096040.jpg" alt="Housing property" loading="lazy"></figure>
+        <figure>
+          <img src="images/1000096043.jpg" alt="Residential housing" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000096087.webp" alt="Housing development" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000096089-1.jpg" alt="Residential property" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000096038.jpg" alt="Housing and buildings" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000096037.jpg" alt="Residential area" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000095768.jpg" alt="Housing development" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000096041.jpg" alt="Residential housing" loading="lazy">
+        </figure>
+        <figure>
+          <img src="images/1000096040.jpg" alt="Housing property" loading="lazy">
+        </figure>
       </div>
+
       <p class="gallery-caption">
         Images are illustrative and do not represent a promise of allocation
         or ownership of any pictured property.
@@ -161,6 +184,7 @@
           Complete this form if you would like our private company to contact
           you about housing information or general process guidance.
         </p>
+
         <div class="form-reminder">
           <strong>Before you submit</strong>
           <p>
@@ -179,13 +203,14 @@
       >
         <input type="hidden" name="_subject" value="New Housing Enquiry - Human Housing Settlement">
         <input type="hidden" name="_template" value="table">
-        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <div class="form-row">
           <div class="form-group">
             <label for="full-name">Full name *</label>
             <input id="full-name" type="text" name="Full name" required maxlength="100" autocomplete="name">
           </div>
+
           <div class="form-group">
             <label for="phone">Contact number *</label>
             <input id="phone" type="tel" name="Contact number" required maxlength="25" autocomplete="tel">
@@ -197,6 +222,7 @@
             <label for="whatsapp">WhatsApp number (if different)</label>
             <input id="whatsapp" type="tel" name="WhatsApp number" maxlength="25">
           </div>
+
           <div class="form-group">
             <label for="email">Email address</label>
             <input id="email" type="email" name="Email address" maxlength="150" autocomplete="email">
@@ -219,6 +245,7 @@
               <option>Western Cape</option>
             </select>
           </div>
+
           <div class="form-group">
             <label for="municipality">Municipality or town *</label>
             <input id="municipality" type="text" name="Municipality or town" required maxlength="100">
@@ -250,6 +277,7 @@
               <option>5 or more</option>
             </select>
           </div>
+
           <div class="form-group">
             <label for="assistance">What do you need help with? *</label>
             <select id="assistance" name="Enquiry type" required>
@@ -265,13 +293,23 @@
 
         <div class="form-group">
           <label for="message">Additional message (optional)</label>
-          <textarea id="message" name="Additional message" rows="5" maxlength="1500"
-            placeholder="Tell us briefly what information you need. Please do not include your ID number or financial information."></textarea>
+          <textarea
+            id="message"
+            name="Additional message"
+            rows="5"
+            maxlength="1500"
+            placeholder="Briefly tell us what information you need. Do not include your ID number or financial information."
+          ></textarea>
         </div>
 
         <div class="consent-box">
           <label class="consent-label">
-            <input type="checkbox" name="Privacy consent" value="I consent to being contacted about this enquiry" required>
+            <input
+              type="checkbox"
+              name="Privacy consent"
+              value="I consent to being contacted about this enquiry"
+              required
+            >
             <span>
               I agree that Human Housing Settlement Pty Ltd may use the
               information I provide to respond to this enquiry. I understand
@@ -284,6 +322,7 @@
         <button class="button button-gold submit-button" type="submit">
           Submit Housing Enquiry
         </button>
+
         <p class="form-small">
           Fields marked * are required. Please submit only information needed
           to respond to your enquiry.
@@ -297,26 +336,41 @@
         <h2>Have a housing enquiry?</h2>
         <p>Contact Human Housing Settlement Pty Ltd.</p>
       </div>
+
       <div class="contact-details">
-        <p><strong>Phone / WhatsApp</strong><br>
+        <p>
+          <strong>Phone / WhatsApp</strong><br>
           <a href="tel:0691855977">069 185 5977</a>
         </p>
-        <p><strong>Email</strong><br>
+        <p>
+          <strong>Email</strong><br>
           <a href="mailto:humanhousingsettlement@gmail.com">humanhousingsettlement@gmail.com</a>
         </p>
+        <a
+          class="button button-gold whatsapp-button"
+          href="https://wa.me/27691855977"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Chat on WhatsApp</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <img src="1000096349.png" alt="" loading="lazy">
+    <img src="images/1000096349.png" alt="Human Housing Settlement logo" loading="lazy">
     <p>Human Housing Settlement Pty Ltd — Building Better Lives</p>
     <p class="footer-note">
       Private company. Not a government department or official RDP/BNG
       application portal. No house, approval or waiting-list priority is
       guaranteed by submitting an enquiry.
     </p>
-    <p class="copyright">© <span id="year">2026</span> Human Housing Settlement Pty Ltd. All rights reserved.</p>
+    <p class="copyright">
+      © <span id="year">2026</span> Human Housing Settlement Pty Ltd. All rights reserved.
+    </p>
   </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
