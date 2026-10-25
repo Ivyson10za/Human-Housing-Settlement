@@ -4,331 +4,212 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#142b40">
-  <meta name="description" content="Human Housing Settlement (Pty) Ltd — building better homes and creating brighter futures for South African communities.">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Human Housing Settlement (Pty) Ltd — building better lives through housing and community development.">
   <title>Human Housing Settlement (Pty) Ltd | Building Better Lives</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Human Housing Settlement home">
-      <span class="brand-icon">H<span>H</span>S</span>
-      <span class="brand-name">
-        <strong>HUMAN HOUSING</strong>
-        <small>SETTLEMENT (PTY) LTD</small>
-      </span>
-    </a>
-
-    <button class="menu-toggle" id="menuToggle"
-      aria-label="Open navigation" aria-expanded="false"
-      aria-controls="mainNav">☰</button>
-
-    <nav id="mainNav" class="main-nav">
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#projects">Our Projects</a>
-      <a href="#impact">Our Impact</a>
-      <a href="#contact" class="nav-cta">Contact Us</a>
-    </nav>
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Human Housing Settlement home">
+        <img class="brand-logo" src="images/1000096349.png" alt="Human Housing Settlement logo">
+        <span class="brand-copy">
+          <strong>HUMAN HOUSING</strong>
+          <span>SETTLEMENT (PTY) LTD</span>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#projects">Our Projects</a>
+        <a href="#impact">Our Impact</a>
+        <a class="nav-cta" href="#contact">Contact Us</a>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <span class="eyebrow">HOUSING • CONSTRUCTION • COMMUNITY</span>
-        <h1>Building Better Lives,<br><span>One Home at a Time.</span></h1>
-        <p>
-          Every family deserves a safe place to call home.
-          We are committed to better housing and stronger
-          communities through construction and housing development.
-        </p>
-        <div class="hero-buttons">
-          <a class="button button-gold" href="#projects">Explore Our Projects</a>
-          <a class="button button-outline" href="#about">Discover Our Mission</a>
+      <div class="hero-image" role="img" aria-label="Housing development"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span></span> HOMES • DIGNITY • COMMUNITY</p>
+        <h1>Building better lives,<br><em>one home at a time.</em></h1>
+        <p class="hero-text">We believe every family deserves a safe place to call home. Our work is focused on housing that supports dignity, stability and stronger communities.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#projects">Explore Our Work <span>→</span></a>
+          <a class="button button-outline" href="#about">Learn About Us</a>
         </div>
+        <div class="hero-note"><span class="note-mark">⌂</span><span>Creating homes. Supporting families. Strengthening communities.</span></div>
       </div>
-      <div class="hero-caption">A foundation for a brighter future.</div>
+      <div class="hero-bottom-line"></div>
     </section>
 
-    <section class="welcome section" id="about">
-      <div class="section-image">
-        <img src="images/1000096089.jpg"
-          alt="A residential housing development in South Africa"
-          loading="lazy">
-        <div class="image-label">
-          <strong>Homes. Hope. Dignity.</strong>
-          <span>Building for communities</span>
+    <section class="intro section" id="about">
+      <div class="container intro-grid">
+        <div class="intro-copy">
+          <p class="eyebrow dark-eyebrow">WHO WE ARE</p>
+          <h2>More than a house.<br><span>A foundation for the future.</span></h2>
+          <p>Human Housing Settlement (Pty) Ltd is committed to helping create better living conditions through housing and settlement development. We understand that a home is more than walls and a roof — it is a place for family, security, opportunity and hope.</p>
+          <p>Our approach puts people first, with a focus on quality workmanship, care and the positive difference a safe home can make.</p>
+          <a class="text-link" href="#impact">Discover our purpose <span>→</span></a>
         </div>
-      </div>
-
-      <div class="section-copy">
-        <span class="eyebrow">WELCOME TO OUR COMPANY</span>
-        <h2>A Home Is More Than Four Walls.</h2>
-        <p>
-          At <strong>Human Housing Settlement (Pty) Ltd</strong>,
-          we believe that a decent home can create new opportunities,
-          strengthen families and give people hope for the future.
-        </p>
-        <p>
-          Our focus is on housing construction and residential
-          development, with a commitment to quality workmanship,
-          responsible building practices and the needs of the people
-          who will call these houses home.
-        </p>
-        <a class="text-link" href="#impact">Discover our community story →</a>
+        <div class="intro-visual">
+          <img class="intro-main-image" src="images/1000096040.jpg" alt="A completed home" loading="lazy">
+          <div class="gold-stamp"><span class="stamp-symbol">⌂</span><strong>BUILDING</strong><span>BETTER LIVES</span></div>
+          <div class="intro-caption"><span class="caption-dot"></span>A safe home can change everything.</div>
+        </div>
       </div>
     </section>
 
-    <section class="mission section">
-      <div class="section-heading">
-        <span class="eyebrow">WHAT GUIDES US</span>
-        <h2>Our Purpose, Our Promise</h2>
-        <p>Building with purpose. Serving people. Creating lasting value.</p>
-      </div>
-
-      <div class="value-grid">
-        <article class="value-card">
-          <span class="value-icon">⌂</span>
-          <h3>Decent Housing</h3>
-          <p>Supporting the development of safe, practical and dignified homes.</p>
-        </article>
-        <article class="value-card">
-          <span class="value-icon">✦</span>
-          <h3>Quality Construction</h3>
-          <p>Working towards reliable workmanship and attention to detail.</p>
-        </article>
-        <article class="value-card">
-          <span class="value-icon">♡</span>
-          <h3>Community First</h3>
-          <p>Keeping families and the communities we serve at the heart of our work.</p>
-        </article>
-        <article class="value-card">
-          <span class="value-icon">↗</span>
-          <h3>Brighter Futures</h3>
-          <p>Helping create opportunities for stability, belonging and progress.</p>
-        </article>
+    <section class="values-section" id="impact">
+      <div class="container">
+        <div class="section-heading centered light-heading">
+          <p class="eyebrow">OUR COMMITMENT</p>
+          <h2>Homes built around <span>people.</span></h2>
+          <p>We want every home to represent a step towards a safer, more hopeful future.</p>
+        </div>
+        <div class="values-grid">
+          <article class="value-card"><div class="value-icon">⌂</div><h3>Housing &amp; Shelter</h3><p>Supporting access to safe, secure places for families to call home.</p></article>
+          <article class="value-card"><div class="value-icon">✦</div><h3>Quality Building</h3><p>Valuing careful workmanship and attention to the details that matter.</p></article>
+          <article class="value-card"><div class="value-icon">♡</div><h3>Community Upliftment</h3><p>Recognising that stronger communities begin with stable homes.</p></article>
+          <article class="value-card"><div class="value-icon">↗</div><h3>A Brighter Future</h3><p>Helping create opportunities for families to grow and thrive.</p></article>
+        </div>
       </div>
     </section>
 
     <section class="projects section" id="projects">
-      <div class="section-heading">
-        <span class="eyebrow">OUR HOUSING GALLERY</span>
-        <h2>Building Places to Call Home</h2>
-        <p>
-          Explore housing developments and examples of homes
-          that reflect the importance of a safe place to live.
-        </p>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card project-featured">
-          <img src="images/1000096087.webp"
-            alt="Wide view of a residential housing settlement" loading="lazy">
-          <div class="project-info">
-            <span>HOUSING DEVELOPMENT</span>
-            <h3>Growing Communities</h3>
-            <p>Residential settlements designed around the need for homes.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="images/1000096043.jpg"
-            alt="Aerial view of houses in a settlement" loading="lazy">
-          <div class="project-info">
-            <span>RESIDENTIAL HOUSING</span>
-            <h3>Homes for Families</h3>
-            <p>Housing that gives families a place to build their future.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="images/1000096040.jpg"
-            alt="Newly built orange house with a light roof" loading="lazy">
-          <div class="project-info">
-            <span>HOME CONSTRUCTION</span>
-            <h3>A Place of Your Own</h3>
-            <p>A finished home represents security, dignity and new beginnings.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="images/1000096042.jpg"
-            alt="A house with a water tank beside it" loading="lazy">
-          <div class="project-info">
-            <span>HOUSING AND ESSENTIALS</span>
-            <h3>Practical Living</h3>
-            <p>Homes and essential facilities that support everyday life.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="images/1000095768.jpg"
-            alt="Houses along a residential road" loading="lazy">
-          <div class="project-info">
-            <span>COMMUNITY DEVELOPMENT</span>
-            <h3>Stronger Neighbourhoods</h3>
-            <p>Building communities where families can put down roots.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="images/1000095632.jpg"
-            alt="A residential settlement with newly built houses" loading="lazy">
-          <div class="project-info">
-            <span>HOUSING FOR THE FUTURE</span>
-            <h3>Room to Grow</h3>
-            <p>Housing developments represent a step towards a brighter future.</p>
-          </div>
-        </article>
-      </div>
-
-      <p class="gallery-note">
-        Photographs illustrate housing examples. Contact us for verified
-        information about specific projects and locations.
-      </p>
-    </section>
-
-    <section class="story section" id="impact">
-      <div class="story-heading">
-        <span class="eyebrow">THE HUMAN SIDE OF HOUSING</span>
-        <h2>From an Old Home to a New Beginning</h2>
-        <p>
-          Behind every home is a person, a family and a story
-          that deserves to be heard.
-        </p>
-      </div>
-
-      <div class="before-after">
-        <article class="story-card">
-          <img src="images/1000096037.jpg"
-            alt="The old home shown in the housing story" loading="lazy">
-          <div class="story-card-copy">
-            <span class="story-tag">BEFORE</span>
-            <h3>The Old Home</h3>
-            <p>
-              An image of the woman's original home, illustrating
-              the difficult housing conditions that can affect families.
-            </p>
-          </div>
-        </article>
-
-        <div class="story-arrow" aria-hidden="true">→</div>
-
-        <article class="story-card">
-          <img src="images/1000096038.jpg"
-            alt="A woman holding the key to her new home alongside two men"
-            loading="lazy">
-          <div class="story-card-copy">
-            <span class="story-tag">A NEW CHAPTER</span>
-            <h3>The Key to a New Home</h3>
-            <p>
-              The woman celebrates receiving the key to her new home.
-              This is the human meaning behind housing: the opportunity
-              for a family to begin a new chapter with dignity and hope.
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="story-message">
-        <span class="quote-mark">“</span>
-        <p>A home can change more than a family's address. It can change the way they see their future.</p>
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <div><p class="eyebrow dark-eyebrow">HOUSING IN FOCUS</p><h2>Homes and communities</h2></div>
+          <p>Explore photographs reflecting the importance of decent shelter, completed homes and settlement development.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-large">
+            <img src="images/1000096089.jpg" alt="Housing development" loading="lazy">
+            <div class="project-overlay"><span>HOUSING DEVELOPMENT</span><h3>Building communities together</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="images/1000096042.jpg" alt="A newly built home with a water tank" loading="lazy">
+            <div class="project-overlay"><span>COMPLETED HOME</span><h3>A place to call home</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="images/1000096043.jpg" alt="Houses in a settlement" loading="lazy">
+            <div class="project-overlay"><span>SETTLEMENT</span><h3>Neighbourhoods for families</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="images/1000095768.jpg" alt="Homes along a residential road" loading="lazy">
+            <div class="project-overlay"><span>COMMUNITY GROWTH</span><h3>Room for a new beginning</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="images/1000096087.webp" alt="Residential housing development" loading="lazy">
+            <div class="project-overlay"><span>HOUSING SETTLEMENT</span><h3>Stronger places to live</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="images/1000096041.jpg" alt="A rural dwelling" loading="lazy">
+            <div class="project-overlay"><span>THE NEED FOR SHELTER</span><h3>Every family deserves a safe home</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="images/1000095632.jpg" alt="A community of homes" loading="lazy">
+            <div class="project-overlay"><span>HOUSING FOR PEOPLE</span><h3>Building with purpose</h3></div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="commitment section">
-      <div class="commitment-inner">
-        <span class="eyebrow">OUR COMMITMENT</span>
-        <h2>Every Home Should Mean Something.</h2>
-        <p>
-          We believe housing should be about more than construction.
-          It should be about people, opportunity, dignity and the
-          foundations of a better tomorrow.
-        </p>
-        <a class="button button-gold" href="#contact">Get in Touch</a>
+    <section class="story-section section">
+      <div class="container story-grid">
+        <div class="story-images">
+          <figure class="story-old">
+            <img src="images/1000096037.jpg" alt="An old home" loading="lazy">
+            <figcaption>Before: an old home</figcaption>
+          </figure>
+          <figure class="story-new">
+            <img src="images/1000096040.jpg" alt="A completed home" loading="lazy">
+            <figcaption>After: a new beginning</figcaption>
+          </figure>
+          <div class="story-arrow" aria-hidden="true">→</div>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow dark-eyebrow">THE DIFFERENCE A HOME MAKES</p>
+          <h2>From an old home<br>to a <span>new beginning.</span></h2>
+          <p>A safe home can bring comfort, security and renewed hope. These photographs illustrate the difference improved housing can make in people's lives.</p>
+          <p>The key handover photograph captures a meaningful moment: a family member receiving the key to a new home. Housing is not only about construction — it is about people and their future.</p>
+          <div class="story-quote">“A home is where a brighter future begins.”</div>
+        </div>
       </div>
     </section>
 
-    <section class="contact section" id="contact">
-      <div class="contact-copy">
-        <span class="eyebrow">LET'S CONNECT</span>
-        <h2>Let's Build a Better Future Together.</h2>
-        <p>
-          For housing enquiries, construction opportunities,
-          partnerships or general information, contact our team.
-        </p>
-        <div class="contact-detail">
-          <span class="contact-icon">⌂</span>
-          <div>
-            <strong>Company</strong>
-            <p>Human Housing Settlement (Pty) Ltd</p>
-          </div>
-        </div>
-        <div class="contact-detail">
-          <span class="contact-icon">✉</span>
-          <div>
-            <strong>Email</strong>
-            <p>Add your official company email address.</p>
-          </div>
-        </div>
-        <div class="contact-detail">
-          <span class="contact-icon">☎</span>
-          <div>
-            <strong>Telephone</strong>
-            <p>Add your official company contact number.</p>
-          </div>
-        </div>
+    <section class="handover-section">
+      <div class="handover-photo">
+        <img src="images/1000096038.jpg" alt="A home handover moment" loading="lazy">
       </div>
+      <div class="handover-content">
+        <p class="eyebrow">A MOMENT THAT MATTERS</p>
+        <h2>A key in the hand.<br><span>Hope for the future.</span></h2>
+        <p>The handover of a home represents a fresh start, a place to build memories and a foundation for the years ahead.</p>
+        <a class="button button-gold" href="#contact">Get in Touch <span>→</span></a>
+      </div>
+    </section>
 
-      <form class="contact-form" id="contactForm">
-        <h3>Send an Enquiry</h3>
-        <p class="form-intro">Complete the form to prepare an email enquiry.</p>
-
-        <label for="name">Your full name</label>
-        <input id="name" name="name" type="text"
-          placeholder="Enter your name" required>
-
-        <label for="email">Your email address</label>
-        <input id="email" name="email" type="email"
-          placeholder="you@example.com" required>
-
-        <label for="subject">Enquiry type</label>
-        <select id="subject" name="subject" required>
-          <option value="">Choose an enquiry</option>
-          <option>Housing enquiry</option>
-          <option>Construction opportunity</option>
-          <option>Business partnership</option>
-          <option>General enquiry</option>
-        </select>
-
-        <label for="message">Your message</label>
-        <textarea id="message" name="message" rows="5"
-          placeholder="How can we help you?" required></textarea>
-
-        <button class="button button-gold form-button" type="submit">
-          Prepare Email Enquiry
-        </button>
-        <p class="form-note" id="formNote" aria-live="polite">
-          The form will open your email application. Your enquiry is not
-          sent automatically by this website.
-        </p>
-      </form>
+    <section class="contact-section section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow dark-eyebrow">LET'S CONNECT</p>
+          <h2>Let's build a better future <span>together.</span></h2>
+          <p>For enquiries about Human Housing Settlement (Pty) Ltd, call us or send us a WhatsApp message. You can also use the enquiry form.</p>
+          <div class="contact-details">
+            <p><strong>Call us:</strong> <a href="tel:+27691855977">069 185 5977</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/27691855977" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a></p>
+          </div>
+          <div class="contact-promise"><span>✓</span><span>People first</span><span>✓</span><span>Community focused</span></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send an enquiry</h3>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Enter your name" required>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          <label for="subject">What is your enquiry about?</label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select an option</option>
+            <option>General enquiry</option>
+            <option>Housing project enquiry</option>
+            <option>Construction partnership</option>
+            <option>Other</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+          <button class="button button-gold form-button" type="submit">Prepare Enquiry <span>→</span></button>
+          <p class="form-note" id="formNote" aria-live="polite">The enquiry form needs a company email address configured in script.js.</p>
+        </form>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a class="footer-brand" href="#home">HUMAN HOUSING SETTLEMENT</a>
-    <p>Building Better Lives, One Home at a Time.</p>
-    <p class="footer-small">
-      © <span id="year"></span> Human Housing Settlement (Pty) Ltd.
-      All rights reserved.
-    </p>
+    <div class="container footer-main">
+      <a class="footer-brand" href="#home">
+        <img src="images/1000096349.png" alt="Human Housing Settlement logo" loading="lazy">
+        <span>
+          <strong>HUMAN HOUSING</strong>
+          <small>SETTLEMENT (PTY) LTD</small>
+          <em>Building Better Lives</em>
+        </span>
+      </a>
+      <p>Building better lives, one home at a time.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Human Housing Settlement (Pty) Ltd.</span>
+      <span>Homes • Dignity • Community</span>
+    </div>
   </footer>
-
-  <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
-
+  <script src="script.js"></script>
 </body>
 </html>
