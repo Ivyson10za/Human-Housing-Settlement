@@ -16,7 +16,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -48,6 +48,10 @@ a {
   gap: 25px;
   background: rgba(16, 16, 16, 0.98);
   border-bottom: 2px solid var(--gold);
+}
+
+.brand {
+  flex-shrink: 0;
 }
 
 .brand img {
@@ -91,7 +95,9 @@ a {
   padding: 85px 8%;
   color: var(--white);
   background-color: var(--black-soft);
-  background-image: url("1000096042.jpg");
+
+  /* Image is inside the images folder */
+  background-image: url("images/1000096042.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -121,7 +127,8 @@ a {
   letter-spacing: 2.5px;
 }
 
-.hero .eyebrow {
+.hero .eyebrow,
+.contact-section .eyebrow {
   color: var(--gold-light);
 }
 
@@ -252,7 +259,8 @@ a {
   font-size: 15px;
 }
 
-.about-section {
+.about-section,
+.gallery-section {
   background: var(--white);
 }
 
@@ -342,10 +350,6 @@ a {
   font-size: 12px;
 }
 
-.gallery-section {
-  background: var(--white);
-}
-
 .gallery-grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -420,6 +424,7 @@ a {
 }
 
 .enquiry-form {
+  min-width: 0;
   padding: 32px;
   background: var(--white);
   border: 1px solid var(--border);
@@ -436,6 +441,7 @@ a {
 .form-group {
   display: flex;
   flex-direction: column;
+  min-width: 0;
   margin-bottom: 20px;
 }
 
@@ -526,10 +532,6 @@ a {
   border-top: 4px solid var(--gold);
 }
 
-.contact-section .eyebrow {
-  color: var(--gold-light);
-}
-
 .contact-section h2 {
   font-size: clamp(26px, 4vw, 38px);
 }
@@ -551,7 +553,7 @@ a {
   color: var(--gold-light);
 }
 
-.contact-details a {
+.contact-details a:not(.button) {
   color: var(--white);
   text-decoration: none;
   overflow-wrap: anywhere;
@@ -559,6 +561,10 @@ a {
 
 .contact-details a:hover {
   color: var(--gold-light);
+}
+
+.whatsapp-button {
+  margin-top: 12px;
 }
 
 .site-footer {
@@ -638,6 +644,7 @@ a {
 
   .contact-details {
     min-width: 0;
+    width: 100%;
   }
 }
 
@@ -686,5 +693,9 @@ a {
 
   .hero-actions .button {
     width: 100%;
+  }
+
+  .site-header nav {
+    gap: 10px 13px;
   }
 }
